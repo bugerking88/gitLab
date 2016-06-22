@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homework表格</title>
+      <style type="text/css">
+  body {
+    color: #996400;
+    
+    font-family: Georgia, "Times New Roman", Times, serif;
+     
+  }
+  td {
+      border:0.2em solid black;
+      
+  }
+  th{
+      color:#1C1CFF;
+  }
+  div{
+border:2px blue dashed;
+margin-bottom:15px;
+
+    
+  }
+
+  </style>
+  
+</head>
+<body id="TestPage" bgcolor="sucess">
+    <div>
+    <table border="1" width="80%" align="center" >
+        <CAPTION><strong>段考成績<strong></CAPTION>
+        
+        <TR><TH ROWSPAN=2>姓名<TH COLSPAN=3>各科成績<TH ROWSPAN=2>名次 
+        <TR><TH>國文<TH>英文<TH>數學 
+        <TR align="center"><TD>趙大</TD><TD id="gg">45</TD><TD>95</TD><TD>90</TD><TD>1</TD></TR>
+        <TR align="center"><TD>錢多</TD><TD>84</TD><TD>55</TD><TD>92</TD><TD>2</TD></TR>
+        <TR align="center"><TD>王偉</TD><TD>70</TD><TD>85</TD><TD>8</TD><TD>3</TD></TR>
+    </table>
+    <input type="button" onclick="CheckBgColor()" value="查詢背景顏色">
+<input type="button" onclick="ChengeBgColor()" value="變更背景顏色">
+    </div>
+    <div2 id="a"></div2>
+</body>
+
+
+
+
+<script type="text/javascript">
+function CheckBgColor(){
+　alert(document.getElementById("TestPage").bgColor);
+}
+function ChengeBgColor(){
+　document.bgColor="gray";
+}
+
+  var array = new array();
+for (var i = 0 ; i < 3 ; i++) {
+  array[i] = new array();
+}
+var myTable = document.getElementById(gg);
+ 
+myTable.style.backgroundColor='#FFFFFF';
+
+  </script>
+
+</html>
+
