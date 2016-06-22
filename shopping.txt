@@ -5,3 +5,5 @@
 - pork
 - barbecue grill
 - wood coal
+
+- mushroom
