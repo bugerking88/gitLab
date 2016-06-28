@@ -7,7 +7,7 @@ $season = array(
     'autumn' => '秋', 
     'winter' => '冬'); 
     
-print_r($season);
+print_r($season);//用人性化的方式印出
 echo "<hr>";
 var_dump($season);
 ?>
