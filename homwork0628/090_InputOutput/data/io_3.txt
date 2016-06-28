@@ -1,0 +1,3 @@
+enctype="multipart/form-data" 必要 編碼方式
+<input type="file"  開啟檔案的視窗
+action="" 丟給自己
