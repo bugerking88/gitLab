@@ -1,0 +1,19 @@
+create database paysql;
+use paysql;
+create table pay(
+eat int(32) default 0,
+meet int(32) default 0,
+play int(32) default 0,
+tax int(32) default 0
+);
+insert into pay(eat,meet,play,tax)
+values('5000','2000','4000','1000'),
+('4000','1500','5000','800'),
+('5500','1000','4500','780');
+
+select * from pay;
+
+delete pay where meet='2000';
+
+update pay set play=(play*1.1)
+where tax='780';
